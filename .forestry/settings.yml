@@ -15,6 +15,10 @@ sections:
   templates:
   - blog-post
 - type: document
+  path: projects
+  label: Projects
+  match: "**/*"
+- type: document
   path: content/data/authors.yaml
   label: Author List
 - type: document
